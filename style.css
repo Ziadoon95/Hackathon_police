@@ -9,15 +9,21 @@
   color: white;
  
 }
+
 .buttons {
   border: none;
-  padding : 10px;
-  margin: 20px;
+  padding : 10px 30px;
+  margin: 0px 50px 40px 50px;
+  font-size: 22px;
 }
 body{
   text-align: center;
+   background-color: aliceblue; 
 }
+
 .content-first_section{
+  margin: 0 auto;
+  width: 1000px;
   background: url('imgs/s-a.png');
   background-repeat: no-repeat;
   height: 472.77px;
@@ -27,6 +33,8 @@ body{
   color: white;
 }
 .content-second_section{
+  margin: 0 auto;
+  width: 1000px;
   background: url('imgs/s-b.png');
   background-repeat: no-repeat;
   height: 472.77px;
@@ -34,4 +42,101 @@ body{
 }
 .content-second_section > p {
   color: white;
+}
+
+.section-title{
+  grid-area : a;
+  position: relative;
+  font-size: 32px;
+  top: 10%;
+  margin-left: 4%;
+
+}
+.div-seprator{
+  display: block;
+  font-size: 32px;
+  
+}
+.div-seprator-sec > p{
+ 
+}
+
+.sep-third-titre{
+  grid-area : titre;
+  color: black;
+}
+
+
+.section-grid{
+  color: wheat;
+  display: grid;
+  grid-template-areas: 
+  "a a ."
+  "b b c";
+   grid-template-rows: 220px 200px;
+  grid-template-columns: 40% 28% 28%; 
+}
+.sep-third-grid{
+  color: wheat;
+  display: grid;
+  grid-template-areas: 
+  "titre ."
+    "titre button"
+    "titre ."
+    ;
+   grid-template-rows:  70px 70px 70px;
+  grid-template-columns: 70% 19% ;
+}
+.section-calltoaction{
+  grid-area : c;
+  font-size: 32px;
+  color : #FFE600;
+
+}
+
+.section-desc{
+  grid-area : b;
+  margin-left : 7%;
+  margin-top: 0px;
+  padding-right: 10%;
+  text-align: left;
+  font-size: 25px;
+}
+
+
+.pogami{
+  color: #244BA6;
+}
+.div-seprator-thrd{
+  font-size: 30px;
+  margin: 0 auto;
+  width: 1000px;
+  color : black;
+}
+#button-join-us{
+  grid-area : button;
+  background-color: #FFE600 ;
+  border: none;
+  font-family: 'Lato', sans-serif;
+}
+footer {
+  margin: 0 auto;
+  width: 1000px;
+  background-color: #244BA6 ;
+  color : white;
+  height: 70px;
+
+}
+footer p {
+  padding: 1.6%;
+}
+.principal-pogami{
+  font-size: 50px;
+  margin: 15px 20px 30px 20px;
+}
+#w3-container{
+  background-color: white;
+    margin: 0 auto;
+  width: 1000px;
+  padding: 0px;
 }

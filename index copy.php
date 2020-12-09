@@ -4,10 +4,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="style.css">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 <style>
 .mySlides {display:none}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
@@ -15,21 +11,18 @@
 </style>
 <body>
 
-<div class="w3-container" id="w3-container">
-  <div class="div-header">
-     <img src="./imgs/frame.png" alt="" class="logo" width="10%" style="display:inline-block">
+<div class="w3-container">
   <p class="principal-pogami">Pogami</p>
-    <input type="button" name="connexion" id="login" class="buttons connexion" value="Log in">
-    <input type="button" name="inscription" id="signup" class="buttons inscription" value="Sign up">
-  </div>
- 
-  
+    <input type="button" name="inscription" id="" class="buttons inscription" value="Sign up">
+    <input type="button" name="connexion" id="" class="buttons connexion" value="Log in">
+</div>
+
 <div class="w3-content w3-display-container" style="max-width:1000px;margin: 0 auto;">
   <img class="mySlides" src="./imgs/img.png" style="width:100%">
   <img class="mySlides" src="./imgs/img.png" style="width:100%">
   <img class="mySlides" src="./imgs/img.png" style="width:100%">
 
-  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%;">
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
     <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
     <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
@@ -92,7 +85,7 @@
 <footer>
   <p>@copyright 2020</p>
 </footer>
-</div>
+
 
 
 <script>
