@@ -1,11 +1,37 @@
 .inscription {
   background-color:#FFE600;
-  color: white;
-  border: none;
+  color: black;
+
 }
 
 .connexion {
   background-color:#244BA6  ;
   color: white;
+ 
+}
+.buttons {
   border: none;
+  padding : 10px;
+  margin: 20px;
+}
+body{
+  text-align: center;
+}
+.content-first_section{
+  background: url('imgs/s-a.png');
+  background-repeat: no-repeat;
+  height: 472.77px;
+  
+}
+.content-first_section > p {
+  color: white;
+}
+.content-second_section{
+  background: url('imgs/s-b.png');
+  background-repeat: no-repeat;
+  height: 472.77px;
+  
+}
+.content-second_section > p {
+  color: white;
 }
