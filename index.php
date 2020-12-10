@@ -43,7 +43,7 @@
 
 <div>
   <div class="div-seprator"><p>What is <span class="pogami">POGAMI</span>? 
-  <p><span class="pogami">POGAMI</span> is a ...</p>
+  <p><span class="pogami">POGAMI</span> is a way...</p>
 </p></div>
     <div class="content-first_section">
       <div class="section-grid">
