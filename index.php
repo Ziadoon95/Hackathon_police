@@ -17,11 +17,14 @@
 
 <div class="w3-container" id="w3-container">
   <div class="div-header">
-     <img src="./imgs/frame.png" alt="" class="logo" width="10%" style="display:inline-block">
-  <p class="principal-pogami">Pogami</p>
-    <input type="button" name="connexion" id="login" class="buttons connexion" value="Log in">
-    <input type="button" name="inscription" id="signup" class="buttons inscription" value="Sign up">
+     <div class="div-header-grid">
+        <img src="./imgs/frame.png" alt="" class="logo"  style="display:inline-block;grid-area: logo;">
+        <p class="principal-pogami">Pogami</p>
+        <input type="button" name="connexion" id="login" class="buttons connexion" value="Log in">
+        <input type="button" name="inscription" id="signup" class="buttons inscription" value="Sign up">
+    </div>
   </div>
+ 
  
   
 <div class="w3-content w3-display-container" style="max-width:1000px;margin: 0 auto;">
