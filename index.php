@@ -93,7 +93,22 @@
 </div>
 
 <footer>
-  <p>@copyright 2020</p>
+  <div class="footer-content-grid">
+        <div class="first-footer-col">
+      <p>Pogami</p>
+    </div>
+    <div class="sec-footer-col">
+      <p>@copyright 2020</p>
+    </div>
+    <div class="third-footer-col">
+      <p>Conditions</p>  
+      <p>Site's plan</p>
+      <p>Partners</p>
+    </div>
+  </div>
+
+
+
 </footer>
 </div>
 
